@@ -1,0 +1,50 @@
+function showName(){ 
+    console.log("Name is Bhoopendra");
+    
+}
+showName(); 
+
+
+
+
+function displayDegree(){ 
+    console.log("Degree is BE");
+    
+}
+displayDegree();
+
+function personalDetails(firstName,lastName,collegeName){
+    console.log("My personal detail is");
+    console.log("My name is",firstName,lastName);
+    console.log("My collegeName is",collegeName);
+
+}
+
+personalDetails("Bhoopendra","Sahu","BIT");
+
+
+
+function swapValuesDude(argOne,argTwo){
+    console.log("Before swap","argOne",argOne,"argTwo",argTwo);
+    var temp=argOne;
+    argOne=argTwo;
+    argTwo=temp;
+    console.log("After swap","argOne",argOne,"argTwo",argTwo);
+
+}
+
+swapValuesDude("Virat","Anushka");
+swapValuesDude(1000,2000);
+
+
+
+function addThreeValues(val1,val2,val3){
+
+var result=val1+val2+val3;
+console.log("Addition is"+result);
+
+}
+addThreeValues(10.23,600,40);
+addThreeValues("Hello ","Good ","Morning");
+
+
